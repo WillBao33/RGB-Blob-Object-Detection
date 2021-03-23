@@ -6,7 +6,7 @@ ser = serial.Serial('COM4', baudrate=9600, timeout=1)
 # Read image
 cam = cv2.VideoCapture(1)
 font = cv2.FONT_HERSHEY_COMPLEX
-sent_coordinates = 53
+# sent_coordinates = 53
 while(1):
         ret, frame = cam.read()
 
